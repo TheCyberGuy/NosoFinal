@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100vh;
+}
+
+#thanksWrapper {
+  background-color: #464646;
+  border-radius: 16px;
+  color: white;
+  height: 30vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: .5s;
+}
+
+a:hover{
+    color: #;
+}
