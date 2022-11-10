@@ -61,6 +61,17 @@ nav {
   min-width: fit-content;
 }
 
+#arajanlat a {
+  text-align: center;
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+#arajanlat a:hover {
+  color: white;
+}
+
 #image img {
   width: 500px;
   transition: 0.5s;

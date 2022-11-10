@@ -4,11 +4,11 @@ html(lang="hu")
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        meta(name="description", content="Megbizhato villanyszerelsi és épületgépészeti munkák")
+        meta(name="description", content="Villanyszerelő és épületgépészeti vállalat, amely arra törekszik, hogy a legjobb elektromos és mérnöki szolgáltatásokat nyújtsa ügyfeleinek. Ügyfélközpontú vállalat vagyunk, amely az ügyfeleink igényeit helyezi előtérbe. Mindig új és innovatív módszereket keresünk, hogy ügyfeleinket jobban kiszolgálhassuk.")
         meta(name="author", content="Sas Csanád")
         meta(name="keywords", content="Villanyszerelés, Gépészet, Épületgépészet, Épitekezési munkák, Szakember")
         link(rel="icon", type="image/png" href="./assets/noso_logo2-remove.png")
-        title NoSo 
+        title NoSo Build Tech
 
         //- fontawesome
         link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css")
@@ -30,8 +30,8 @@ html(lang="hu")
                     span#So So
         nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top
             .container
-                a.navbar-brand#brand(onclick="toTop()")
-                    img(src="./assets/noso_logo2-remove.png", width=64, height=64 alt="")
+                a.navbar-brand#brand(onclick="toTop()" href='#')
+                    img(src="./assets/noso_logo2-remove.png", width=64, height=64 alt="NoSo logo")
                 button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarNav.collapse.navbar-collapse
@@ -52,8 +52,8 @@ html(lang="hu")
                             span.me-2 Professzionális
                             div.d-flex.justify-content-center.text-nowrap#title
                                 div#wrapper
-                                    h1.i-item villanyszerelési
-                                    h1.i-item.i-item-2.w-100 épület gépészeti
+                                    p.h1.i-item villanyszerelési
+                                    p.h1.i-item.i-item-2.w-100 épület gépészeti
                                     //- h1.i-item Vizszerelesi
                         | megoldasok a 
                         span No
@@ -77,9 +77,9 @@ html(lang="hu")
                             .carousel-item.active
                                 img#carouselImg.d-block.w-100(src='./assets/photos/villanyora.jpg' alt='kapcsolószekrény')
                             .carousel-item
-                                img#carouselImg.d-block.w-100(src='./assets/photos/villanyora_2.jpg' alt='kapcsolószekrény_2')
+                                img#carouselImg.d-block.w-100(src='./assets/photos/villany_new.jpeg' alt='kapcsolószekrény átvizsgálás')
                             .carousel-item
-                                img#carouselImg.d-block.w-100(src='./assets/photos/villanyora_3.jpg' alt='Készülő vezetékezés')
+                                img#carouselImg.d-block.w-100(src='./assets/photos/villanyora_3.jpg' alt='Készülő vezetékezés légkondicionáláshoz')
                     button.btn.my-2#Button(type='button')
                         a#fogA(href="./villany.html") Tudjon meg többet 
                 .container.mt-5.text-center#neuro
@@ -88,17 +88,17 @@ html(lang="hu")
                     #carouselExampleFade.carousel.slide.carousel-fade(data-bs-ride='carousel')
                         .carousel-inner
                             .carousel-item.active
-                                img#carouselImg.d-block.w-100(src='./assets/photos/szereles.jpg' alt='')
+                                img#carouselImg.d-block.w-100(src='./assets/photos/szereles.jpg' alt='embereink munka közben')
                             .carousel-item
-                                img#carouselImg.d-block.w-100(src='./assets/photos/cirko.jpg' alt='')
+                                img#carouselImg.d-block.w-100(src='./assets/photos/cirko.jpg' alt='beépitett cirkok')
                             .carousel-item
-                                img#carouselImg.d-block.w-100(src='./assets/photos/csovek.jpg' alt='')
+                                img#carouselImg.d-block.w-100(src='./assets/photos/csovek.jpg' alt='mennyezeti cső elvezetés')
                     button.btn.my-2#Button(type='button')
                         a#fogA(href="./gepeszet.html") Tudjon meg többet 
         .container-fluid.d-flex.flex-column.flex-lg-row.flex-md-column.justify-content-evenly.text-center.align-content-center.flex-wrap.mt-3#gallery
-            img#galleryimg1(src="./assets/photos/galeria_1.jpg", alt="Készülő vezetékezés")
+            img#galleryimg1(src="./assets/photos/galeria_1.jpg", alt="Kábel rendezés")
             img#galleryimg3(src="./assets/photos/galeria_3.jpg", alt="Készülő vezetékezés")
-            img#galleryimg2(src="./assets/photos/galeria_2.jpg", alt="Készülő vezetékezés")
+            img#galleryimg2(src="./assets/photos/galeria_2.jpg", alt="Vezeték elvezetés a falban")
         .container-fluid#footer
             .container-fluid.d-flex.flex-lg-row.flex-column.justify-content-lg-evenly.justify-content-center
                 .container.d-flex.flex-row.justify-content-center.d-none
@@ -115,7 +115,7 @@ html(lang="hu")
                     .container.d-flex.flex-row.my-3.justify-content-center#cttxt
                         i.fa-solid.fa-phone.me-1
                         span Telefon:
-                        a.ms-1(href="tel:+36202896763") +36 20 289 6763
+                        a.ms-1(href="tel:+36306229858") +36 30 622 9858
                     .container.d-flex.flex-row.justify-content-center#cttxt
                         i.fa-solid.fa-house.me-1.pt-1
                         span Szekhely:

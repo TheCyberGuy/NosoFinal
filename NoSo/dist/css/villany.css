@@ -43,11 +43,32 @@
 
 #headerWrapper {
   /* background-color: #1f1f1f; */
+  text-decoration: underline;
   border-radius: 5px;
   min-width: fit-content;
   max-width: 45%;
   color: #1f1f1f;
   margin: 0 auto;
+}
+
+#arajanlat {
+  background-color: #464646;
+  width: fit-content;
+  border-radius: 8px;
+  color: white;
+  height: 80px;
+  text-align: center;
+}
+
+#arajanlat a {
+  text-align: center;
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+#arajanlat a:hover {
+  color: white;
 }
 
 #inf {
@@ -210,7 +231,7 @@ a:hover {
 }
 
 #form textarea:focus {
-  /* transform: scaleX(95%); */
+  transform: scaleX(98%);
   outline: none;
   border: 1.5px solid #464646;
 }
